@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'sw-portfolio',
     environment: environment,
-    rootURL: '/',
+    rootURL: '/indexs',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
