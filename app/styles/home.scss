@@ -1,0 +1,52 @@
+.about {
+  text-align: center;
+
+&__paragraph, &-breakout {
+  text-align: center;
+
+}
+}
+
+.promise {
+  text-align: center;
+  border-top: .1rem solid $c-black;
+  padding-top: 1rem;
+
+  &__paragraph {
+  text-align: center;
+
+  }
+}
+
+.project__image {
+  object-fit: cover;
+
+}
+
+.project__image-text {
+  visibility: hidden;
+  opacity: 1;
+  background-color: $c-accent;
+  color: $c-primary;
+  font-weight: bold;
+
+  &:hover {
+  visibility: visible;
+}
+}
+
+.portfolio__frameworks {
+  text-align: center;
+
+  &-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &-name, a {
+    text-decoration: none;
+    font-weight: bold;
+    color: $c-black;
+  }
+}
