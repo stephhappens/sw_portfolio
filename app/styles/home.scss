@@ -19,21 +19,24 @@
 }
 
 .project__image {
-  object-fit: cover;
-
-}
-
-.project__image-text {
-  visibility: hidden;
-  opacity: 1;
-  background-color: $c-accent;
-  color: $c-primary;
-  font-weight: bold;
+  height: 100%;
 
   &:hover {
-  visibility: visible;
+    background: $c-primary;
+  }
 }
-}
+//
+// .project__image-text {
+//   visibility: hidden;
+//   opacity: 1;
+//   background-color: $c-accent;
+//   color: $c-primary;
+//   font-weight: bold;
+//
+//   &:hover {
+//   visibility: visible;
+// }
+// }
 
 .portfolio__frameworks {
   text-align: center;
