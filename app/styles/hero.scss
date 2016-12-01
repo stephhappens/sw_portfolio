@@ -1,7 +1,12 @@
 .hero {
+  background: url('/images/hero.jpeg') no-repeat center;
+  background-size: cover;
+  height: 20rem;
+  color: $c-white;
+  // filter: blur(.9px);
 
   &__image {
-    height: 35rem;
+    height: 10rem;
     width: 100%;
   }
 
@@ -10,6 +15,8 @@
     background: $c-accent;
 
       &-headline {
+        margin: 0;
+        padding-top: 9rem;
 
       }
 

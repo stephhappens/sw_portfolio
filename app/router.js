@@ -8,7 +8,11 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('index');
-  this.route('home');
+  this.route('home', function() {
+    this.route('bulma');
+    this.route('materialize');
+    this.route('bootstrap');
+  });
 
   });
 

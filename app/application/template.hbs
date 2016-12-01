@@ -3,7 +3,7 @@
 
     <nav class="top-nav">
       <div class="top-nav__group">
-        <h1 class="top-nav__logo"><a href="#">Stephanie Winn</a></h1>
+        {{#link-to "home" }} <img src="/images/logo.png" class="top-nav__logo" alt="">{{/link-to}}
       </div>
       <ul class="top-nav__group">
         <li class="top-nav__item"> <a href="#">Blog </a> </li>
@@ -12,36 +12,32 @@
       </ul>
     </nav>
 
-  </div>
-
-  {{!-- to-do: fix tagline display --}}
-  <div class="hero">
-    <img src="../images/hero.jpeg" class="hero__image" alt="code on screen">
-    <span class="hero__welcome">
+    <div class="hero">
+      <span class="hero__welcome">
       <h1 class="hero__welcome-headline">Hi there!</h1>
         <h3 class="hero__welcome-tagline">I am quippy tagline. Keep reading on for more fun!</h3>
     </span>
-
+    </div>
   </div>
 
-<div class="app__section">
+  <div class="app__section">
     <div class="container">
     </div>
+  </div>
+
+  {{!-- to-do: FIX FOOTER DISPLAY --}}
+
+  <footer>
+    <div class="bottom__nav">
+      <div class="bottom__nav--icons">
+        <i class="fa fa-facebook" aria-hidden="true"> </i>
+        <i class="fa fa-twitter" aria-hidden="true"> </i>{{!-- <img src="./img/logo.svg" class= "bottom__nav--logo" alt="spiral logo"> --}}
+        <i class="fa fa-heart" aria-hidden="true"> </i>
+        <i class="fa fa-github" aria-hidden="true"> </i>
       </div>
+    </div>
+  </footer>
 
-{{!-- to-do: FIX FOOTER DISPLAY --}}
 
-<footer>
-  <div class="bottom__nav">
-    <div class= "bottom__nav--icons">
-    <i class="fa fa-facebook" aria-hidden="true"> </i>
-    <i class="fa fa-twitter" aria-hidden="true"> </i>
-    {{!-- <img src="./img/logo.svg" class= "bottom__nav--logo" alt="spiral logo"> --}}
-    <i class="fa fa-heart" aria-hidden="true"> </i>
-    <i class="fa fa-github" aria-hidden="true"> </i>
-  </div>
-  </div>
-</footer>
-
-{{outlet}}
-  </div>
+  {{outlet}}
+</div>
