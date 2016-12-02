@@ -11,3 +11,7 @@ $c-white: #F2F1EA;
 @import 'section';
 @import 'hero';
 @import 'home';
+
+.bulma {
+  @import 'bulma';
+}

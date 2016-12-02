@@ -19,24 +19,53 @@
 }
 
 .project__image {
+  position: relative;
+
   height: 100%;
 
+  &-text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    visibility: hidden;
+    opacity: 1;
+
+    color: $c-primary;
+    font-weight: bold;
+    z-index: 1;
+  }
+
+  &-pic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
   &:hover {
-    background: $c-primary;
+    .project__image-text {
+      visibility: visible;
+    }
+
+    .project__image-pic {
+      filter: contrast(120%) brightness(80%);
+    }
+  }
+
+  // This makes the image square
+  &::before {
+    display: block;
+    content: "";
+    padding-top: 100%;
   }
 }
 //
-// .project__image-text {
-//   visibility: hidden;
-//   opacity: 1;
-//   background-color: $c-accent;
-//   color: $c-primary;
-//   font-weight: bold;
-//
-//   &:hover {
-//   visibility: visible;
-// }
-// }
+
 
 .portfolio__frameworks {
   text-align: center;
