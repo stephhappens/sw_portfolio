@@ -1,5 +1,6 @@
 .container {
   max-width: 60rem;
+  padding: 1rem;
   margin: 0 auto;
 }
 
@@ -16,7 +17,7 @@
   &__item {
     flex-grow: 1;
     margin: 1rem;
-      }
+  }
 }
 
 .card {

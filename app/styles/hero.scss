@@ -8,11 +8,11 @@
   &__image {
     height: 10rem;
     width: 100%;
+    filter: grayscale(100%);
   }
 
   &__welcome {
     text-align: center;
-    background: $c-accent;
 
       &-headline {
         margin: 0;

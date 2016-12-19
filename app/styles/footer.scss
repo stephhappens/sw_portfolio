@@ -3,15 +3,40 @@
   color: $c-primary;
 
   text-align: center;
+  margin-top: 3rem;
 }
 
 .bottom__nav--icons {
-  padding-top: 1rem;
-  height: 5rem;
-  font-size: 30px;
+  padding-top: 0.2rem;
+  height: 2rem;
+  font-size: 1.5rem;
 }
 
-// // .bottom__nav--logo {
-// //   height: 2rem;
-//
-// }
+.fa-facebook {
+  &:hover {
+    color: $c-accent;
+    font-size: 2rem;
+
+  }
+}
+
+.fa-twitter {
+  &:hover {
+    color: $c-accent;
+    font-size: 2rem;
+  }
+}
+
+.fa-heart {
+  &:hover {
+    color: $c-accent;
+    font-size: 2rem;
+  }
+}
+
+.fa-github {
+  &:hover {
+    color: $c-accent;
+    font-size: 2rem;
+  }
+}

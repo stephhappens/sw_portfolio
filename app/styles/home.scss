@@ -1,19 +1,29 @@
 .about {
   text-align: center;
+  border-bottom: .1rem solid $c-black;
+  padding-bottom: 1rem;
 
-&__paragraph, &-breakout {
+&__paragraph {
+  padding-bottom: .2rem;
   text-align: center;
+  font-size: 1.2rem;
 
+&-breakout {
+  padding-bottom: .2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
 }
 }
 
 .promise {
   text-align: center;
-  border-top: .1rem solid $c-black;
-  padding-top: 1rem;
+  border-bottom: .1rem solid $c-black;
+  padding-bottom: 1rem;
 
   &__paragraph {
   text-align: center;
+  font-size: 1.2rem;
 
   }
 }

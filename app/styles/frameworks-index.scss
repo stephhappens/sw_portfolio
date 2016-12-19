@@ -1,0 +1,33 @@
+.portfolio__frameworks {
+  border-bottom: .1rem solid $c-black;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+
+  &-bulma {
+    font-size: 1.5rem;
+
+    &:hover {
+      color: #00D1B2;
+      font-size: 1.6rem;
+    }
+  }
+
+  &-materialize {
+    font-size: 1.5rem;
+
+    &:hover {
+      color: #EE6E73;
+      font-size: 1.6rem;
+    }
+  }
+
+  &-bootstrap {
+    font-size: 1.5rem;
+
+    &:hover {
+      color: #594080;
+      font-size: 1.6rem;
+    }
+  }
+}
