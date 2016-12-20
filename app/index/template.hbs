@@ -2,12 +2,11 @@
   {{#if (eq frameworkClass "bulma")}}
     {{partial "index/bulma"}}
   {{else}}
-    <div class="app__top">
 
+    <div class="app__top">
       <nav class="top-nav">
         <div class="top-nav__group-flex">
           {{#link-to "home" }} <img src="/images/logo.png" class="top-nav__logo" alt="">{{/link-to}}
-          <p>Stephanie Winn</p>
         </div>
         <ul class="top-nav__group">
           <li class="top-nav__item"> <a href="#">Blog </a> </li>
@@ -15,87 +14,88 @@
           <li class="top-nav__item"> <a href="#"> Contact </a> </li>
         </ul>
       </nav>
+    </div>
 
-      <div class="hero">
-        <span class="hero__welcome">
-  <h1 class="hero__welcome-headline">Hi there!</h1>
-    <h3 class="hero__welcome-tagline">I am quippy tagline. Keep reading on for more fun!</h3>
-</span>
+    <div class="hero">
+      <div class="hero__welcome">
+        <h1 class="hero__welcome-headline">STEPHANIE WINN</h1>
+        <h3 class="hero__welcome-tagline">WEB DEVELOPER</h3>
       </div>
     </div>
 
-      <div class="container">
-        <div class="section">
-          <h1 class="about">ABOUT ME</h1>
-          <p class="about__paragraph">
-            <h3 class="about__paragraph-breakout">I had six wisdom teeth removed. You can say I'm a bit of an over-acheiver.</h3> I am a Belmont University and Iron Yard Nashville graduate. After working in public relations and economic development at the Nashville Area Chamber of Commerce, I'm well versed in client side communication and project management. Before
-            my time at the Chamber I worked in a public relations agency setting at McNeely Pigott & Fox Public Relations and DVL Seiganthaler Public Relations and Advertising.
-          </p>
 
-          <h1 class="promise">PROMISE</h1>
-          <p class="promise__paragraph">
-            Hire me and you'll get a hard worker, deliberate learner, and occasional-bring-baked-goods-to-work gal.
-          </p>
-        </div>
+    <div class="container">
+      <div class="section">
+        <h1 class="about">ABOUT ME</h1>
+        <p class="about__paragraph">
+          <h3 class="about__paragraph-breakout">I had six wisdom teeth removed. You can say I'm a bit of an over-acheiver.</h3> I am a Belmont University and Iron Yard Nashville graduate. After working in public relations and economic development at the Nashville Area Chamber of Commerce, I'm well versed in client side communication and project management. Before my
+          time at the Chamber I worked in a public relations agency setting at McNeely Pigott & Fox Public Relations and DVL Seiganthaler Public Relations and Advertising.
+        </p>
 
-        <div class="grid">
+        <h1 class="promise">PROMISE</h1>
+        <p class="promise__paragraph">
+          Hire me and you'll get a hard worker, deliberate learner, and occasional-bring-baked-goods-to-work gal.
+        </p>
+      </div>
 
-          <div class="grid__item">
-            <div class="card">
-              <div class="project__image">
-                <img src="http://www.placecera.com/g/200/300" class="project__image-pic" alt="cera" background-size="cover">
-                <p class="project__image-text">
-                  I am some text that should hover.
-                </p>
-              </div>
-            </div>
-          </div>
+      <div class="grid">
 
-          <div class="grid__item">
-            <div class="card">
-              <div class="project__image">
-                <img src="http://www.placecera.com/g/200/300" class="project__image-pic" alt="cera" background-size="cover">
-                <p class="project__image-text">
-                  I am some text that should hover.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="grid__item">
-            <div class="card">
-              <div class="project__image">
-                <img src="http://www.placecera.com/g/200/300" class="project__image-pic" alt="cera" background-size="cover">
-                <p class="project__image-text">
-                  I am some text that should hover.
-                </p>
-              </div>
+        <div class="grid__item">
+          <div class="card">
+            <div class="project__image">
+              <img src="http://www.placecera.com/g/200/300" class="project__image-pic" alt="cera" background-size="cover">
+              <p class="project__image-text">
+                I am some text that should hover.
+              </p>
             </div>
           </div>
         </div>
 
-        <div class="container">
-          <h1 class="portfolio__frameworks">VIEW MY PORTFOLIO IN</h1>
-          <div class="portfolio__frameworks-flex">
+        <div class="grid__item">
+          <div class="card">
+            <div class="project__image">
+              <img src="http://www.placecera.com/g/200/300" class="project__image-pic" alt="cera" background-size="cover">
+              <p class="project__image-text">
+                I am some text that should hover.
+              </p>
+            </div>
+          </div>
+        </div>
 
-            <a class="portfolio__frameworks-bulma" {{action "changeStyle" "bulma"}}> BULMA </a>
-            <a class="portfolio__frameworks-materialize" {{action "changeStyle" "materialize"}}> MATERIALIZE </a>
-            <a class="portfolio__frameworks-bootstrap" {{action "changeStyle" "bootstrap"}}> BOOTSTRAP </a>
-
+        <div class="grid__item">
+          <div class="card">
+            <div class="project__image">
+              <img src="http://www.placecera.com/g/200/300" class="project__image-pic" alt="cera" background-size="cover">
+              <p class="project__image-text">
+                I am some text that should hover.
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
-      <footer>
-        <div class="bottom__nav">
-          <div class="bottom__nav--icons">
-            <i class="fa fa-facebook" aria-hidden="true"> </i>
-            <i class="fa fa-twitter" aria-hidden="true"> </i>
-            <i class="fa fa-heart" aria-hidden="true"> </i>
-            <i class="fa fa-github" aria-hidden="true"> </i>
-          </div>
+      <div class="container">
+        <h1 class="portfolio__frameworks">VIEW MY PORTFOLIO IN</h1>
+        <div class="portfolio__frameworks-flex">
+
+          <a class="portfolio__frameworks-bulma" {{action "changeStyle" "bulma"}}> BULMA </a>
+          <a class="portfolio__frameworks-materialize" {{action "changeStyle" "materialize"}}> MATERIALIZE </a>
+          <a class="portfolio__frameworks-bootstrap" {{action "changeStyle" "bootstrap"}}> BOOTSTRAP </a>
+
         </div>
-      </footer>
+      </div>
+    </div>
+
+    <footer>
+      <div class="bottom__nav">
+        <div class="bottom__nav--icons">
+          <a href="https://www.facebook.com/stephanie.n.winn"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
+          <a href="https://twitter.com/steph_happens"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
+          <i class="fa fa-heart" aria-hidden="true"> </i>
+          <a href="https://github.com/stephhappens"><i class="fa fa-github" aria-hidden="true"> </i></a>
+        </div>
+      </div>
+    </footer>
 
   {{/if}}
-  </div>
+</div>

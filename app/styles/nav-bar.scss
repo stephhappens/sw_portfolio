@@ -3,12 +3,12 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  background: $c-black;
   width: 100%;
   color: $c-white;
   flex-grow: 1;
   height: 4rem;
   z-index: 2;
+  background: $c-black;
 
   &__group {
     display: flex;
@@ -37,6 +37,7 @@
     padding: 1rem;
     color: inherit;
     text-decoration: none;
+    font-size: 1.4rem;
   }
 }
 
