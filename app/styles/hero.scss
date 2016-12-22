@@ -1,22 +1,39 @@
 .hero {
-  color: $c-black;
   display: flex;
-  flex-direction: column;
+  position: relative;
+
+  color: $c-white;
+  background: url("/images/hero2.jpg") no-repeat center;
+  background-size: cover;
+  height: 50rem;
 
   &__welcome {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
     align-items: center;
-    margin-top: 5rem;
+    justify-content: center;
+    position: absolute;
+    top: 25rem;
+    left: 35rem;
+    color: inherit;
+    text-shadow: $c-black;
 
-}
     &-headline {
       justify-content: center;
       margin: 1rem;
-      font-size: 2rem;
+      font-size: 5rem;
     }
 
     &-tagline {
+      // border: .3rem solid $c-accent;
+      // padding: 1.3rem;
       justify-content: center;
+      color: inherit;
+      font-weight: bolder;
+      text-shadow: black;
+      font-size: 1.5rem;
     }
   }
+}

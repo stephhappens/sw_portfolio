@@ -4,11 +4,12 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  color: $c-white;
+  color: #fff;
+  font-weight: bolder;
+  text-shadow: #303030;
   flex-grow: 1;
   height: 4rem;
   z-index: 2;
-  background: $c-black;
 
   &__group {
     display: flex;
@@ -28,7 +29,8 @@
 
     &:hover {
       color: $c-accent;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      font-weight: bolder;
     }
   }
 
