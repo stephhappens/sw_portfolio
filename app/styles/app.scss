@@ -18,6 +18,10 @@ $c-white: #F2F1EA;
   @import 'bulma';
 }
 
+.materialize {
+  @import 'materialize';
+}
+
 h1 {
   font-family: 'Bitter', serif;
 }

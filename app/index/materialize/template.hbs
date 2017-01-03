@@ -1,1 +1,145 @@
-<h1>Hello World!</h1>
+<div class="app__top">
+  <nav class="top-nav">
+    <div class="nav-wrapper">
+      {{!-- {{#link-to "home" }}<img src="/images/logo.png" class="top-nav__logo" alt="">{{/link-to}} --}}
+      <ul id="nav-mobile" class="top-nav__group right hide-on-med-and-down">
+        <li class="top-nav__item"> <a href="#">Blog </a> </li>
+        <li class="top-nav__item"> <a href="#"> About </a> </li>
+        <li class="top-nav__item"> <a href="#"> Contact </a> </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="hero">
+    <div class="container">
+      <div class="section">
+        <div class="valign-wrapper">
+          <p class="flow-text">
+            <h1 class="center-align">Hi there!</h1>
+            <h3 class="center-align">This is my portfolio using Materialize!</h3>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="section">
+    <h3 class="about">ABOUT ME</h3>
+    <p class="about__paragraph">
+      <h5 class="about__paragraph-breakout">I had six wisdom teeth removed. You can say I'm a bit of an over-acheiver.</h5>
+      I am a Belmont University and Iron Yard Nashville graduate. After working in public relations and economic development at the Nashville Area Chamber of Commerce, I'm well versed in client side communication and project management. Before my time
+      at the Chamber I worked in a public relations agency setting at McNeely Pigott & Fox Public Relations and DVL Seiganthaler Public Relations and Advertising.
+    </p>
+
+    <h3 class="promise">PROMISE</h3>
+    <p class="promise__paragraph">
+      Hire me and you'll get a hard worker, deliberate learner, and occasional-bring-baked-goods-to-work gal.
+    </p>
+  </div>
+</div>
+
+
+  <div class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <div class="card">
+            <div class="project__image">
+              <img src="/images/emberialthai.gif" class="project__image-pic" alt="emberial thai project">
+              <div class="project__image-text">
+                <h3>Emberial Thai</h3>
+                <p>Stack: Ember, Sass</p>
+                <p>
+                  <a href="http://sw-emberialthai.surge.sh/" class="project__image-link"> See it in action!</a>
+                </p>
+                <p>
+                  <a href="https://github.com/stephhappens/emberial-thai" class="project__image-link">See how it works!</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="project__image">
+              <img src="/images/puppies.gif" class="project__image-pic" alt="puppies project" background-size="cover">
+              <div class="project__image-text">
+                <h3>Nashville Puppy Adoption Project</h3>
+                <p>Stack: Vue, Sass</p>
+                <p>
+                  <a href="http://sw-puppies.surge.sh/" class="project__image-link"> See it in action!</a>
+                </p>
+                <p>
+                  <a href="https://github.com/stephhappens/17-puppy-adoption" class="project__image-link">See how it works!</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {{!-- <div class="grid__item">
+          <div class="card">
+            <div class="project__image">
+              <img src="/images/puppies.gif" class="project__image-pic" alt="twitch project" background-size="cover">
+              <div class="project__image-text">
+                <h3>Twitch Website Clone</h3>
+                <p>Stack: Javascript, Sass</p>
+                <p>
+                  <a href="http://sw-twitchclone.surge.sh/" class="project__image-link"> See it in action!</a>
+                </p>
+                <p>
+                  <a href="https://github.com/stephhappens/10-twitch" class="project__image-link">See how it works!</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> --}}
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="project__image">
+              <img src="/images/finalproject.gif" class="project__image-pic" alt="Final Project" background-size="cover">
+              <div class="project__image-text">
+                <h3>BBBS of Middle Tennessee Final Project</h3>
+                <p>Stack: Ember, Sass</p>
+                <p>
+                  <a href="https://bbbsmid-tn.herokuapp.com/" class="project__image-link"> See it in action!</a>
+                </p>
+                <p>
+                  <a href="https://github.com/stephhappens/bbbs-site" class="project__image-link">See how it works!</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+    </div>
+
+
+
+  <div class="container">
+    <div class="section">
+      <h3 class="portfolio__frameworks">VIEW MY PORTFOLIO IN</h3>
+      <div class="portfolio__frameworks-flex">
+
+        <a class="portfolio__frameworks-bulma" {{action "changeStyle" "bulma"}}> BULMA </a>
+        <a class="portfolio__frameworks-materialize" {{action "changeStyle" "materialize"}}> MATERIALIZE </a>
+        <a class="portfolio__frameworks-bootstrap" {{action "changeStyle" "bootstrap"}}> BOOTSTRAP </a>
+
+      </div>
+    </div>
+  </div>
+
+<footer class="page-footer">
+  <div class="container center-align">
+      <a href="https://www.facebook.com/stephanie.n.winn" class="white-text"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
+      <a href="https://twitter.com/steph_happens" class="white-text"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
+      <i class="fa fa-heart" aria-hidden="true" class="white-text"> </i>
+      <a href="https://github.com/stephhappens" class="white-text"><i class="fa fa-github" aria-hidden="true"> </i></a>
+    </div>
+</footer>

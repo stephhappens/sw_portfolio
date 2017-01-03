@@ -2,6 +2,8 @@
   {{#if (eq frameworkClass "bulma")}}
     {{partial "index/bulma"}}
 
+  {{else}}
+
   {{#if (eq frameworkClass "materialize")}}
     {{partial "index/materialize"}}
 
@@ -10,7 +12,7 @@
     <div class="app__top">
       <nav class="top-nav">
         <div class="top-nav__group-flex">
-          {{#link-to "home" }} <img src="/images/logo.png" class="top-nav__logo" alt="">{{/link-to}}
+          {{!-- {{#link-to "home" }} <img src="/images/logo.png" class="top-nav__logo" alt="">{{/link-to}} --}}
         </div>
         <ul class="top-nav__group">
           <li class="top-nav__item"> <a href="#">Blog </a> </li>
