@@ -1,6 +1,10 @@
 <div class="app {{ frameworkClass }}">
   {{#if (eq frameworkClass "bulma")}}
     {{partial "index/bulma"}}
+
+  {{#if (eq frameworkClass "materialize")}}
+    {{partial "index/materialize"}}
+
   {{else}}
 
     <div class="app__top">
@@ -76,7 +80,7 @@
           </div>
         </div>
 
-        <div class="grid__item">
+        {{!-- <div class="grid__item">
           <div class="card">
             <div class="project__image">
               <img src="/images/puppies.gif" class="project__image-pic" alt="twitch project" background-size="cover">
@@ -92,7 +96,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> --}}
 
         <div class="grid__item">
           <div class="card">
@@ -139,4 +143,6 @@
     </footer>
 
   {{/if}}
+  {{/if}}
+
 </div>
