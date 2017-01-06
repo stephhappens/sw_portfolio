@@ -1,11 +1,9 @@
 .hero {
   display: flex;
-  position: relative;
-
   color: $c-white;
-  background: url("/images/hero2.jpg") no-repeat center;
+  background: url("/images/brickwall.jpg") no-repeat center;
   background-size: cover;
-  height: 50rem;
+  height: 55rem;
 
   &__welcome {
     display: flex;
@@ -14,26 +12,35 @@
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 25rem;
-    left: 35rem;
     color: inherit;
-    text-shadow: $c-black;
+    text-shadow: .5rem $c-black;
+    padding: 1rem;
 
     &-headline {
       justify-content: center;
       margin: 1rem;
       font-size: 5rem;
+      border-bottom: .4rem solid #AE8848;
     }
 
     &-tagline {
-      // border: .3rem solid $c-accent;
-      // padding: 1.3rem;
       justify-content: center;
-      color: inherit;
       font-weight: bolder;
-      text-shadow: black;
-      font-size: 1.5rem;
+      font-size: 3rem;
+      margin: 0;
     }
   }
+}
+
+.neon-light {
+  display: flex;
+  height: 20rem;
+  align-items: center;
+  // animation: neon-light 2s ease infinite alternate;
+  // @keyframes neon-light {
+  //   0% { opacity: 1; }
+  //   10% { opacity: 1; }
+  //   15% { opacity: 0; }
+  //   100% { opacity: 0; }
+  // }
 }

@@ -6,6 +6,9 @@
 
   &-bulma {
     font-size: 1.5rem;
+    border: .1rem solid #00D1B2;
+    padding: .4rem;
+    border-radius: .4rem;
 
     &:hover {
       color: #00D1B2;
@@ -15,6 +18,9 @@
 
   &-materialize {
     font-size: 1.5rem;
+    border: .1rem solid #EE6E73;
+    padding: .4rem;
+    border-radius: .4rem;
 
     &:hover {
       color: #EE6E73;
@@ -24,6 +30,9 @@
 
   &-bootstrap {
     font-size: 1.5rem;
+    border: .1rem solid #594080;
+    padding: .4rem;
+    border-radius: .4rem;
 
     &:hover {
       color: #594080;
