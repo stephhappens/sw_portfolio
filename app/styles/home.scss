@@ -96,16 +96,6 @@
   }
 }
 
-.project__display {
-  // background: url( "/images/planks.jpg") no-repeat center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  background-size: cover;
-  height: 60rem;
-}
-
 .portfolio__frameworks {
   text-align: center;
 
@@ -121,5 +111,19 @@
     border: 0.1rem solid $c-accent;
     font-weight: bold;
     color: $c-black;
+  }
+}
+
+.contact {
+  background: $c-black;
+  // display: flex;
+  // flex-grow: 1;
+  // flex-direction: column;
+
+  &-flex {
+    color: $c-primary;
+    // display: flex;
+    // flex-direction: column;
+    // flex-grow: 1;
   }
 }

@@ -21,7 +21,7 @@
     padding-right: 0.5rem;
     padding-top: 1rem;
     margin: 0;
-    height: 4rem;
+    height: 5rem;
   }
 
   &__item {
@@ -37,9 +37,11 @@
   a {
     display: inline-block;
     padding: 1rem;
-    color: inherit;
+    color: #BDC6D0;
     text-decoration: none;
     font-size: 2rem;
+    text-shadow: .1rem 0 $c-black;
+
   }
 }
 

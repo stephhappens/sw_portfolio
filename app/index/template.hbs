@@ -21,12 +21,11 @@
           </ul>
         </nav>
 
-
         <div class="hero" id="hero">
-          <div class="hero__welcome">
-            <img src="/images/neon-hello1.svg" class="neon-light" alt="neon hi">
-            <h3 class="hero__welcome-tagline">My name is Stephanie. I help make the web a prettier place to visit.</h3>
-          </div>
+            <div class="hero__welcome">
+              <img src="/images/neon-hello1.svg" class="neon-light" alt="neon hi">
+              <h3 class="hero__welcome-tagline">My name is Stephanie. I help make the web a prettier place to visit.</h3>
+            </div>
         </div>
       </div>
 
@@ -35,8 +34,8 @@
           <h1 class="about">ABOUT ME</h1>
           <p class="about__paragraph">
             <h3 class="about__paragraph-breakout">I had six wisdom teeth removed. You can say I'm a bit of an over-acheiver.</h3>
-            <img src="/images/sw.jpeg" class="about__photo" alt=""> I am a Belmont University and Iron Yard Nashville graduate. After working in public relations and economic development at the Nashville Area Chamber of Commerce, I'm well versed in client
-            side communication and project management. Before my time at the Chamber I worked in a public relations agency setting at McNeely Pigott & Fox Public Relations and DVL Seiganthaler Public Relations and Advertising.
+            <img src="/images/steph.jpg" class="about__photo" alt=""> I am a Belmont University and Iron Yard Nashville graduate. After working in public relations and economic development at the Nashville Area Chamber of Commerce, I'm well versed in
+            client side communication and project management. Before my time at the Chamber I worked in a public relations agency setting at McNeely Pigott & Fox Public Relations and DVL Seiganthaler Public Relations and Advertising.
           </p>
         </div>
       </div>
@@ -50,99 +49,130 @@
         </div>
       </div>
 
-    <div class="section">
-      <div class="container">
-        <div class="resume">
-          <img src="/images/resume.svg" alt="">
+      <div class="section">
+        <div class="container">
+          <div class="resume">
+            <h1 class="about">RESUME</h1>
+            <img src="/images/resume.svg" alt="">
+          </div>
         </div>
       </div>
-    </div>
 
 
 
-      <div class="project__display" id="portfolio">
-        {{!-- <div class="container"> --}}
-          <h1 class="about">PORTFOLIO </h1>
-          <div class="grid">
+      {{!-- <div class="project__display" id="portfolio"> --}}
+      <div class="container" id="portfolio">
+        <h1 class="about">PORTFOLIO </h1>
+        <div class="grid">
 
-            <div class="grid__item">
-              <div class="card">
-                <div class="project__image">
-                  <img src="/images/adoptpuppies.svg" class="project__image-pic" alt="puppies project" background-size="cover">
-                  <div class="project__image-text">
-                    <h3>Nashville Puppy Adoption Project</h3>
-                    <p>Stack: Vue, Sass</p>
-                    <p>
-                      <a href="http://sw-puppies.surge.sh/" class="project__image-link"> See it in action!</a>
-                    </p>
-                    <p>
-                      <a href="https://github.com/stephhappens/17-puppy-adoption" class="project__image-link">See how it works!</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="grid__item">
-              <div class="card">
-                <div class="project__image">
-                  <img src="/images/emberialthai.svg" class="project__image-pic" alt="emberial thai project">
-                  <div class="project__image-text">
-                    <h3>Emberial Thai</h3>
-                    <p>Stack: Ember, Sass</p>
-                    <p>
-                      <a href="http://sw-emberialthai.surge.sh/" class="project__image-link"> See it in action!</a>
-                    </p>
-                    <p>
-                      <a href="https://github.com/stephhappens/emberial-thai" class="project__image-link">See how it works!</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="grid__item">
-              <div class="card">
-                <div class="project__image">
-                  <img src="/images/bbbs.svg" class="project__image-pic" alt="Final Project" background-size="cover">
-                  <div class="project__image-text">
-                    <h3>BBBS of Middle Tennessee Final Project</h3>
-                    <p>Stack: Ember, Sass</p>
-                    <p>
-                      <a href="https://bbbsmid-tn.herokuapp.com/" class="project__image-link"> See it in action!</a>
-                    </p>
-                    <p>
-                      <a href="https://github.com/stephhappens/bbbs-site" class="project__image-link">See how it works!</a>
-                    </p>
-                  </div>
+          <div class="grid__item">
+            <div class="card">
+              <div class="project__image">
+                <img src="/images/emberialthai.svg" class="project__image-pic" alt="emberial thai project">
+                <div class="project__image-text">
+                  <h3>Emberial Thai</h3>
+                  <p>Stack: Ember, Sass</p>
+                  <p>
+                    <a href="http://sw-emberialthai.surge.sh/" class="project__image-link"> See it in action!</a>
+                  </p>
+                  <p>
+                    <a href="https://github.com/stephhappens/emberial-thai" class="project__image-link">See how it works!</a>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        {{!-- </div> --}}
 
-          {{!--
-                <div class="container">
-          <h1 class="portfolio__frameworks">VIEW MY PORTFOLIO IN</h1>
-          <div class="portfolio__frameworks-flex">
+          <div class="grid__item">
+            <div class="card">
+              <div class="project__image">
+                <img src="/images/adoptpuppies.svg" class="project__image-pic" alt="puppies project" background-size="cover">
+                <div class="project__image-text">
+                  <h3>Nashville Puppy Adoption Project</h3>
+                  <p>Stack: Vue, Sass</p>
+                  <p>
+                    <a href="http://sw-puppies.surge.sh/" class="project__image-link"> See it in action!</a>
+                  </p>
+                  <p>
+                    <a href="https://github.com/stephhappens/17-puppy-adoption" class="project__image-link">See how it works!</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <a class="portfolio__frameworks-bulma" {{action "changeStyle" "bulma"}}
-          > BULMA </a>
-          <a class="portfolio__frameworks-materialize" {{action "changeStyle" "materialize"}}> MATERIALIZE </a>
-          <a class="portfolio__frameworks-bootstrap" {{action "changeStyle" "bootstrap"}}> BOOTSTRAP </a>{{!--  --}}
+          <div class="grid__item">
+            <div class="card">
+              <div class="project__image">
+                <img src="/images/emberialthai.svg" class="project__image-pic" alt="emberial thai project">
+                <div class="project__image-text">
+                  <h3>Emberial Thai</h3>
+                  <p>Stack: Ember, Sass</p>
+                  <p>
+                    <a href="http://sw-emberialthai.surge.sh/" class="project__image-link"> See it in action!</a>
+                  </p>
+                  <p>
+                    <a href="https://github.com/stephhappens/emberial-thai" class="project__image-link">See how it works!</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid__item">
+            <div class="card">
+              <div class="project__image">
+                <img src="/images/bbbs.svg" class="project__image-pic" alt="Final Project" background-size="cover">
+                <div class="project__image-text">
+                  <h3>BBBS of Middle Tennessee Final Project</h3>
+                  <p>Stack: Ember, Sass</p>
+                  <p>
+                    <a href="https://bbbsmid-tn.herokuapp.com/" class="project__image-link"> See it in action!</a>
+                  </p>
+                  <p>
+                    <a href="https://github.com/stephhappens/bbbs-site" class="project__image-link">See how it works!</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <footer>
-          <div class="bottom__nav">
-            <div class="bottom__nav--icons">
-              <a href="https://www.facebook.com/stephanie.n.winn"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
-              <a href="https://twitter.com/steph_happens"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
-              <i class="fa fa-heart" aria-hidden="true"> </i>
-              <a href="https://github.com/stephhappens"><i class="fa fa-github" aria-hidden="true"> </i></a>
-            </div>
+      </div>
+
+
+      <div class="container">
+        <h1 class="portfolio__frameworks">VIEW MY PORTFOLIO IN</h1>
+        <div class="portfolio__frameworks-flex">
+
+          <a class="portfolio__frameworks-bulma" {{action "changeStyle" "bulma"}}> BULMA </a>
+          <a class="portfolio__frameworks-materialize" {{action "changeStyle" "materialize"}}> MATERIALIZE </a>
+          <a class="portfolio__frameworks-bootstrap" {{action "changeStyle" "bootstrap"}}> BOOTSTRAP </a>
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <div class="contact-flex">
+          <div class="wow bounceInUp">
+            <h1>Let's connect!</h1>
+            <h2>Stephanie Winn</h2>
+            <h3>stephanie.n.winn@gmail.com</h3>
+            <h3>(615) 881-2748</h3>
           </div>
-        </footer>
+        </div>
+      </div>
+
+      <footer>
+        <div class="bottom__nav">
+          <div class="bottom__nav--icons">
+            <a href="https://www.facebook.com/stephanie.n.winn"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
+            <a href="https://twitter.com/steph_happens"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
+            <a href="mailto:stephanie.n.winn@gmail.com">stephanie.n.winn@gmail.com</a>
+            <i class="fa fa-heart" aria-hidden="true"> </i>
+            <a href="https://github.com/stephhappens"><i class="fa fa-github" aria-hidden="true"> </i></a>
+          </div>
+        </div>
+      </footer>
 
     {{/if}}
   {{/if}}
-
-  </div>
+</div>

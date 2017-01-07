@@ -1,8 +1,10 @@
 .bottom__nav {
   background: $c-black;
   color: $c-primary;
+  display: flex;
+  justify-content: space-around;
 
-  text-align: center;
+  // text-align: center;
   margin-top: 3rem;
 }
 
@@ -13,14 +15,17 @@
 }
 
 .fa-facebook {
+  margin-right: 1rem;
+
   &:hover {
     color: $c-accent;
     font-size: 2rem;
-
   }
 }
 
 .fa-twitter {
+  margin-right: 1rem;
+
   &:hover {
     color: $c-accent;
     font-size: 2rem;
@@ -28,6 +33,8 @@
 }
 
 .fa-heart {
+  margin: 0 1rem;
+
   &:hover {
     color: $c-accent;
     font-size: 2rem;
@@ -35,6 +42,8 @@
 }
 
 .fa-github {
+  margin-right: 1rem;
+
   &:hover {
     color: $c-accent;
     font-size: 2rem;

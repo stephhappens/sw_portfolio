@@ -8,13 +8,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-basis: calc(100% / 3 - 1rem - 1rem);
+  margin: -1rem;
 
   &--centered {
     justify-content: space-around;
   }
 
   &__item {
+    flex-basis: calc(100% / 3 - 1rem - 1rem);
     flex-grow: 1;
     margin: 1rem;
   }
