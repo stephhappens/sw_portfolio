@@ -115,15 +115,20 @@
 }
 
 .contact {
-  background: $c-black;
-  // display: flex;
-  // flex-grow: 1;
-  // flex-direction: column;
+  background: $c-secondary;
+  height: 62rem;
 
   &-flex {
     color: $c-primary;
-    // display: flex;
-    // flex-direction: column;
-    // flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+  }
+
+  &-information {
+    border: 0.1rem solid $c-black;
+    padding: 2rem 3rem;
+    border-radius: .4rem;
   }
 }

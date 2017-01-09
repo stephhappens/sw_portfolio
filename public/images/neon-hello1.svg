@@ -26,7 +26,7 @@
 	<path id="black-line" class="st3" d="M571.4,136.1v37.3c0,10.7-5.8,19.4-12.9,19.4H97.2c-7.1,0-12.9-8.7-12.9-19.4V62.3
 		c0-10.7,5.8-19.4,12.9-19.4h461.2c7.1,0,12.9,8.7,12.9,19.4v44.5"/>
 </g>
-<g id="Layer_3">
+<g id="Layer_3" class="neon-glow">
 	<g id="neon-glow">
 		<defs>
 			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-0.7" y="3.5" width="641.4" height="214.2">
