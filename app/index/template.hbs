@@ -9,10 +9,11 @@
 
     {{else}}
 
+  {{#scroll-to href="splash" duration=1000 easing='linear'}}
       <div class="app__top" id="splash">
         <nav class="top-nav">
           <div class="top-nav__group-flex">
-            {{#link-to "home" }}<img src="/images/sw-logo.svg" class="top-nav__logo" alt="">{{/link-to}}
+            {{#link-to "index" }}<img src="/images/sw-logo.svg" class="top-nav__logo" alt="">{{/link-to}}
           </div>
           <ul class="top-nav__group">
             <li class="top-nav__item"> <a href="#portfolio">Portfolio </a> </li>
@@ -28,15 +29,19 @@
           </div>
         </div>
       </div>
+  {{/scroll-to}}
 
+    {{#scroll-to href="#about" duration=1000 easing='linear'}}
       <div class="container" id="about">
         <div class="section">
           <h1 class="about">ABOUT ME</h1>
-          <p class="about__paragraph">
-            <h3 class="about__paragraph-breakout">I had six wisdom teeth removed. You can say I'm a bit of an over-acheiver.</h3>
-            <img src="/images/steph.jpg" class="about__photo" alt=""> I am a Belmont University and Iron Yard Nashville graduate. After working in public relations and economic development at the Nashville Area Chamber of Commerce, I'm well versed in
-            client side communication and project management. Before my time at the Chamber I worked in a public relations agency setting at McNeely Pigott & Fox Public Relations and DVL Seiganthaler Public Relations and Advertising.
-          </p>
+          <div class="content__flex">
+            <p class="about__paragraph">
+              <h3 class="about__paragraph-breakout">I had six wisdom teeth removed. You can say I'm a bit of an over-acheiver.</h3>
+              <img src="/images/steph.jpg" class="about__photo" alt=""> I am a Belmont University and Iron Yard Nashville graduate. After working in public relations and economic development at the Nashville Area Chamber of Commerce, I'm well versed in
+              client side communication and project management. Before my time at the Chamber I worked in a public relations agency setting at McNeely Pigott & Fox Public Relations and DVL Seiganthaler Public Relations and Advertising.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -57,10 +62,10 @@
           </div>
         </div>
       </div>
+    {{/scroll-to}}
 
 
-
-      {{!-- <div class="project__display" id="portfolio"> --}}
+    {{#scroll-to href="#portfolio" duration=1000 easing='linear'}}
       <div class="container" id="portfolio">
         <h1 class="about">PORTFOLIO </h1>
         <div class="grid">
@@ -138,6 +143,7 @@
           </div>
         </div>
       </div>
+      {{/scroll-to}}
 
       {{!--
       <div class="container">
@@ -150,8 +156,8 @@
         <a class="portfolio__frameworks-bootstrap" {{action "changeStyle" "bootstrap"}}> BOOTSTRAP </a>
 </div>
 </div> --}}
-
-<div class="contact">
+{{#scroll-to href="#contact" duration=1000 easing='linear'}}
+<div class="contact" id="contact">
   <div class="contact-flex">
     <div class="container">
       <div class="contact-information">
@@ -171,6 +177,8 @@
     </div>
   </div>
 </div>
+{{/scroll-to}}
+
 {{/if}}
 {{/if}}
 </div>

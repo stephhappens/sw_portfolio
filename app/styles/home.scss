@@ -33,6 +33,11 @@
   }
 }
 
+.content__flex {
+  display: flex;
+  flex-direction: row;
+}
+
 .project__image {
   position: relative;
   height: 100%;
@@ -118,17 +123,19 @@
   background: $c-secondary;
   height: 62rem;
 
+
   &-flex {
     color: $c-primary;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   &-information {
     border: 0.1rem solid $c-black;
-    padding: 2rem 3rem;
+    padding: 2rem 4rem;
     border-radius: .4rem;
+    margin: 5rem;
   }
 }
