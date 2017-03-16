@@ -3,13 +3,13 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  color: #fff;
   font-weight: bolder;
   text-shadow: #303030;
   flex-grow: 1;
   height: 4rem;
   z-index: 2;
   padding: 1rem;
+  // background: $c-black;
 
   &__group {
     display: flex;
@@ -28,21 +28,27 @@
   &__item {
     margin: 0;
 
-    &:hover {
-      color: $c-accent;
-      font-size: 2.2rem;
-      font-weight: bolder;
-    }
+  &-line-through {
+   text-decoration: line-through;
+
+   &:hover {
+    color: pink;
+   }
+  }
   }
 
   a {
     display: inline-block;
     padding: 1rem;
-    color: #BDC6D0;
+    color: $c-black;
     text-decoration: none;
     font-size: 2rem;
     text-shadow: .1rem 0 $c-black;
 
+    &:hover {
+      text-decoration: line-through;
+
+    }
   }
 }
 
