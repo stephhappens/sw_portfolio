@@ -26,7 +26,8 @@ h1 {
   font-family: 'Bitter', serif;
 }
 
-.svg {
-  height: auto;
-  width: 100%;
+@media (max-width: 600px) {
+  .top-nav {
+    display: none;
+  }
 }

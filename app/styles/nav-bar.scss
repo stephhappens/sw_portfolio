@@ -1,3 +1,4 @@
+
 .top-nav {
   position: fixed;
   display: flex;
@@ -28,13 +29,6 @@
   &__item {
     margin: 0;
 
-  &-line-through {
-   text-decoration: line-through;
-
-   &:hover {
-    color: pink;
-   }
-  }
   }
 
   a {
