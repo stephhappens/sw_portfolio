@@ -8,7 +8,7 @@
     width: 15rem;
     border-radius: 50%;
     float: left;
-    margin-right: 3rem;
+    margin: 0 3rem;
   }
 
   &__paragraph {
@@ -65,7 +65,9 @@
     text-align: center;
   }
 
-  &-link,  a, p {
+  &-link,
+  a,
+  p {
     color: $c-secondary;
     text-decoration: none;
     margin: 0;
@@ -122,8 +124,7 @@
 .contact {
   background: url("/images/blue-wall.jpg") no-repeat center;
   background-size: cover;
-  height: 62rem;
-
+  height: 58rem;
 
   &-flex {
     color: $c-primary;
@@ -134,9 +135,18 @@
   }
 
   &-information {
-    border: 0.1rem solid $c-black;
-    padding: 2rem 4rem;
-    border-radius: .4rem;
+    // border: 0.5rem solid $c-white;
+    padding: 4rem 8rem;
+    border-radius: 0.4rem;
     margin: 5rem;
+    background: $c-black;
+    opacity: .9;
   }
+}
+
+.details {
+font-family: 'Raleway', sans-serif;
+font-size: 2rem;
+text-align: center;
+font-weight: bold;
 }

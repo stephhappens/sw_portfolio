@@ -32,15 +32,17 @@
   {{/scroll-to}}
 
     {{#scroll-to href="#about" duration=1000 easing='linear'}}
-      <div class="container" id="about">
+      <div id="about">
         <div class="section">
-          <h1 class="about">ABOUT ME</h1>
+        <div class="container">
+            <h1 class="about">ABOUT ME</h1>
           <div class="content__flex">
             <p class="about__paragraph">
               <h3 class="about__paragraph-breakout">I had six wisdom teeth removed. You can say I'm a bit of an over-acheiver.</h3>
               <img src="/images/steph.jpg" class="about__photo" alt=""> I am a Belmont University and Iron Yard Nashville graduate. After working in public relations and economic development at the Nashville Area Chamber of Commerce, I'm well versed in
               client side communication and project management. Before my time at the Chamber I worked in a public relations agency setting at McNeely Pigott & Fox Public Relations and DVL Seiganthaler Public Relations and Advertising.
             </p>
+        </div>
           </div>
         </div>
       </div>
@@ -70,7 +72,7 @@
         <h1 class="about">PORTFOLIO </h1>
         <div class="grid">
 
-          <div class="grid__item">
+          {{!-- <div class="grid__item">
             <div class="card">
               <div class="project__image">
                 <img src="/images/emberialthai.svg" class="project__image-pic" alt="emberial thai project">
@@ -86,7 +88,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
 
           <div class="grid__item">
             <div class="card">
@@ -159,19 +161,21 @@
 {{#scroll-to href="#contact" duration=1000 easing='linear'}}
 <div class="contact" id="contact">
   <div class="contact-flex">
-    <div class="container">
-      <div class="contact-information">
-        <h1>Let's connect!</h1>
-        <h2>Stephanie Winn</h2>
-        <h3>stephanie.n.winn@gmail.com</h3>
-        <h3>(615) 881-2748</h3>
-        <div class="bottom__nav">
-          <div class="bottom__nav--icons">
-            <a href="https://www.facebook.com/stephanie.n.winn"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
-            <a href="https://twitter.com/steph_happens"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
-            <i class="fa fa-heart" aria-hidden="true"> </i>
-            <a href="https://github.com/stephhappens"><i class="fa fa-github" aria-hidden="true"> </i></a>
-      </div>
+    <div class="section">
+      <div class="container">
+        <div class="contact-information">
+          <h1 class="details">Let's connect!</h1>
+          <h2 class="details">Stephanie Winn</h2>
+          <h3 class="details">stephanie.n.winn@gmail.com</h3>
+          <h3 class="details">(615) 881-2748</h3>
+          <div class="bottom__nav">
+            <div class="bottom__nav--icons">
+              <a href="https://www.facebook.com/stephanie.n.winn"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
+              <a href="https://twitter.com/steph_happens"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
+              <i class="fa fa-heart" aria-hidden="true"> </i>
+              <a href="https://github.com/stephhappens"><i class="fa fa-github" aria-hidden="true"> </i></a>
+        </div>
+          </div>
         </div>
       </div>
     </div>

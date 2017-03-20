@@ -10,12 +10,11 @@
   flex-wrap: wrap;
   flex-grow: 1;
 
+
   &__welcome {
     height: 20rem;
     color: $c-primary;
-    // display: flex;
     text-align: center;
-
 
     text-shadow: .5rem $c-black;
     padding: 1rem;
@@ -23,13 +22,13 @@
     &-tagline {
       color:$c-black;
       font-weight: bolder;
-      font-size: 3rem;
+      font-size: 2rem;
       text-shadow: .1rem 0 $c-black;
       margin: 0;
       text-align: center;
     }
   }
-  &-img {
-    height: 1orem;
-  }
+}
+.hero-img {
+  height: 15rem;
 }
